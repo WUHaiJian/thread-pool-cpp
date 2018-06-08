@@ -1,7 +1,7 @@
 thread-pool-cpp
 =================
-[![Build Status](https://travis-ci.org/inkooboo/thread-pool-cpp.svg?branch=master)](https://travis-ci.org/inkooboo/thread-pool-cpp)
-[![Codecov branch](https://img.shields.io/codecov/c/github/inkooboo/thread-pool-cpp/master.svg)](https://codecov.io/gh/inkooboo/thread-pool-cpp)
+[![Build Status](https://travis-ci.org/WUHaiJian/thread-pool-cpp.svg?branch=master)](https://travis-ci.org/WUHaiJian/thread-pool-cpp)
+[![Codecov branch](https://img.shields.io/codecov/c/github/WUHaiJian/thread-pool-cpp/master.svg)](https://codecov.io/gh/WUHaiJian/thread-pool-cpp)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
  * It is highly scalable and fast.
@@ -27,6 +27,6 @@ Post job to thread pool is much faster than for boost::asio based thread pool.
 
 See benchmark/benchmark.cpp for benchmark code.
 
-All code except [MPMCBoundedQueue](https://github.com/inkooboo/thread-pool-cpp/blob/master/include/thread_pool/mpmc_bounded_queue.hpp)
+All code except [MPMCBoundedQueue](https://github.com/WUHaiJian/thread-pool-cpp/blob/master/include/thread_pool/mpmc_bounded_queue.hpp)
 is under MIT license.
 
